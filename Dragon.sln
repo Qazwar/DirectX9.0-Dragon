@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch11-2-Progressive-Mesh", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch11-3-Bounding-Volume", "ch11-3-Bounding-Volume\ch11-3-Bounding-Volume.vcxproj", "{2EC58D92-D4DA-4DC1-B58F-40D642D6A1F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch12-1-Camera", "ch12-1-Camera\ch12-1-Camera.vcxproj", "{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -157,6 +159,10 @@ Global
 		{2EC58D92-D4DA-4DC1-B58F-40D642D6A1F1}.Debug|Win32.Build.0 = Debug|Win32
 		{2EC58D92-D4DA-4DC1-B58F-40D642D6A1F1}.Release|Win32.ActiveCfg = Release|Win32
 		{2EC58D92-D4DA-4DC1-B58F-40D642D6A1F1}.Release|Win32.Build.0 = Release|Win32
+		{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}.Debug|Win32.Build.0 = Debug|Win32
+		{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}.Release|Win32.ActiveCfg = Release|Win32
+		{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
