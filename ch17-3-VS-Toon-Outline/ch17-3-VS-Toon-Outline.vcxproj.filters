@@ -15,22 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="camera.h">
+    <Text Include="outline-vs.hlsl">
       <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="d3dUtility.h">
+    </Text>
+    <Text Include="toon-vs.hlsl">
       <Filter>Resource Files</Filter>
-    </ClInclude>
+    </Text>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="silhouetteEdges.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
     <ClCompile Include="d3dUtility.cpp">
-      <Filter>Resource Files</Filter>
+      <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="camera.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ch12-1-Camera.cpp">
+    <ClCompile Include="ch17-3-VS-Toon-Outline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="silhouetteEdges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

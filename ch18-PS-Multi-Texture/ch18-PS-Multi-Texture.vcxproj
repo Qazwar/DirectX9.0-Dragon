@@ -10,18 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="camera.h" />
-    <ClInclude Include="d3dUtility.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="camera.cpp" />
-    <ClCompile Include="ch12-1-Camera.cpp" />
-    <ClCompile Include="d3dUtility.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EFCA442C-3EB1-4B9A-B3F4-EAFED120F844}</ProjectGuid>
-    <RootNamespace>ch121Camera</RootNamespace>
+    <ProjectGuid>{B12A8742-623F-4398-9102-72C9471976BB}</ProjectGuid>
+    <RootNamespace>ch18PSMultiTexture</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -70,6 +61,16 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dUtility.cpp" />
+    <ClCompile Include="ch18-PS-Multi-Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ps_multitex-ps.hlsl" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
